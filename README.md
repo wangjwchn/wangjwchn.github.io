@@ -37,5 +37,5 @@ I am interested in *concurrency*. My research focuses on how to make the program
 
 **[02.2018 - 07.2018]** Teaching assistant for *Computer Programming II*,  USTC (2018, Spring Semester).
 
-**[07.2016 - 10.2016]** Research assistant in R\&D department of Cloud Storage, Alibaba Cloud.
+**[07.2016 - 10.2016]** Research assistant in R&D department of Cloud Storage, Alibaba Cloud.
 
