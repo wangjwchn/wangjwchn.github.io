@@ -8,13 +8,13 @@ I am interested in *concurrency*. My research focuses on how to make the program
 
 ## Publications
 
-**[USENIX ATC'22]** [BBQ: A Block-based Bounded Queue for Exchanging Data and Profiling]().
+**[USENIX ATC'22]** [BBQ: A Block-based Bounded Queue for Exchanging Data and Profiling]().  
 *Jiawei Wang*, Diogo Behrens, Ming Fu, Lilith Oberhauser, Jonas Oberhauser, Jitang Lei, Geng Chen, Hermann Härtig, and Haibo Chen.
 
-**[VLDB'21]** [AutoGR: Automated Geo-Replication with Fast System Performance and Preserved Application Semantics](papers/VLDB2021.pdf) ([slides](papers/VLDB2021-talk.pdf)).
+**[VLDB'21]** [AutoGR: Automated Geo-Replication with Fast System Performance and Preserved Application Semantics](papers/VLDB2021.pdf) ([slides](papers/VLDB2021-talk.pdf)).  
 *Jiawei Wang*, Cheng Li, Kai Ma, Jingze Huo, Feng Yan, Xinyu Feng, and Yinlong Xu.
 
-**[SCP'20]** [Formalizing SPARCv8 Instruction Set Architecture in Coq.](papers/SCP2020.pdf)
+**[SCP'20]** [Formalizing SPARCv8 Instruction Set Architecture in Coq.](papers/SCP2020.pdf)  
 *Jiawei Wang*, Ming Fu, Lei Qiao, and Xinyu Feng.
 
 **[SETTA'17]** [Formalizing SPARCv8 Instruction Set Architecture in Coq](papers/SETTA2017.pdf) ([slides](SETTA2017-talk.pdf)).
@@ -25,7 +25,7 @@ I am interested in *concurrency*. My research focuses on how to make the program
 
 **[09.2021 - Present]** Industrial PHD Student in S4C Group, Huawei Dresden Research Center.
 
-**[02.2021 - 08.2021]** Research assistant in [System Research Group](https://www.microsoft.com/en-us/research/group/systems-and-networking-research-group-asia/}), [Microsoft Research Asia](https://www.microsoft.com/en-us/research/lab/microsoft-research-asia).
+**[02.2021 - 08.2021]** Research assistant in System Research Group, Microsoft Research Asia.
 
 **[07.2020 - 11.2020]** Research assistant in OS Kernel Lab, Huawei Hangzhou Research Institute.
 
@@ -33,9 +33,9 @@ I am interested in *concurrency*. My research focuses on how to make the program
 
 **[09.2018 - 01.2019]** Teaching assistant for *Compiler Principles*, USTC (2018, Fall Semester).
 
-**[07.2018 - 08.2018] ** Teaching assistant for *Computer Programming II*,  USTC (2018, Summer Semester).
+**[07.2018 - 08.2018]** Teaching assistant for *Computer Programming II*,  USTC (2018, Summer Semester).
 
-**[02.2018 - 07.2018] ** Teaching assistant for *Computer Programming II*,  USTC (2018, Spring Semester).
+**[02.2018 - 07.2018]** Teaching assistant for *Computer Programming II*,  USTC (2018, Spring Semester).
 
-**[07.2016 - 10.2016]** Research assistant in R\&D department of [cloud storage](https://www.alibabacloud.com/product/storage), [Alibaba Cloud](https://www.alibabacloud.com).
+**[07.2016 - 10.2016]** Research assistant in R\&D department of Cloud Storage, Alibaba Cloud.
 
