@@ -1,6 +1,6 @@
 ## About Me
 
-I am a first year industrial Ph.D. student at [Technische Universität Dresden](https://tu-dresden.de/?set_language=en) and Huawei Dresden Reserach Center, advised by [Prof.Hermann Härtig](http://os.inf.tu-dresden.de/~haertig/). I obtained my Master's degree from [University of Science and Technology of China](http://en.ustc.edu.cn), advised by [Prof. Cheng Li](http://staff.ustc.edu.cn/~chengli7) and [Prof. Xinyu Feng](https://cs.nju.edu.cn/xyfeng/). Before that, I obtained my Bachelor's degree from [University of Science and Technology of China](http://en.ustc.edu.cn), advised by [Dr. Ming fu](https://brightfu.github.io) and [Prof. Xinyu Feng](https://cs.nju.edu.cn/xyfeng/).
+I am a first year industrial Ph.D. student at [Technische Universität Dresden](https://tu-dresden.de/?set_language=en) and Huawei Dresden Reserach Center, advised by [Prof.Hermann Härtig](http://os.inf.tu-dresden.de/~haertig/). I obtained my Master's degree from [University of Science and Technology of China](http://en.ustc.edu.cn) (USTC), advised by [Prof. Cheng Li](http://staff.ustc.edu.cn/~chengli7) and [Prof. Xinyu Feng](https://cs.nju.edu.cn/xyfeng/). Before that, I obtained my Bachelor's degree from [University of Science and Technology of China](http://en.ustc.edu.cn), advised by [Dr. Ming fu](https://brightfu.github.io) and [Prof. Xinyu Feng](https://cs.nju.edu.cn/xyfeng/).
 
 ## Research Interests
 
