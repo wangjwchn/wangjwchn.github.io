@@ -1,5 +1,5 @@
 
 ## Switzerland
 
-###  - [Lausanne](Lausanne.html)
+###   - [Lausanne](Lausanne.html)
 
