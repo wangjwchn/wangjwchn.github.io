@@ -1,8 +1,10 @@
-![IMG_6983](photos/IMG323.jpg)
+![IMG323](photos/IMG323.jpeg)
 Avenue Emile Jaques-Dalcroze, 1007 Lausanne, Switzerland
-<br />
-<br />
-![IMG_7053](photos/IMG322.jpeg)
+\
+\
+\
+\
+![IMG322](photos/IMG322.jpeg)
 Rue Pierre Viret 1, 1003 Lausanne, Switzerland
 
   
