@@ -1,5 +1,5 @@
 
-## Switzerland :switzerland:
+## Switzerland
 
-#### [Lausanne](docs/Lausanne.html)
+### [Lausanne](docs/Lausanne.html)
 
