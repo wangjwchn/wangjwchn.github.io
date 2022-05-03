@@ -8,3 +8,5 @@
 
 ## France
 ### - [Saint-Malo](Saint-Malo.html)
+### - [Rennes](Rennes.html)
+### - [Paris](Paris.html)
