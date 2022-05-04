@@ -9,33 +9,78 @@
 
 <url>
   <loc>https://wangjwchn.github.io/</loc>
-  <lastmod>2022-05-01T12:02:42+00:00</lastmod>
+  <lastmod>2022-05-03T04:58:44+00:00</lastmod>
   <priority>1.00</priority>
 </url>
 <url>
+  <loc>https://wangjwchn.github.io/portfolio.html</loc>
+  <lastmod>2022-05-03T04:58:44+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
   <loc>https://wangjwchn.github.io/docs/Resume_JIAWEI_WANG.pdf</loc>
-  <lastmod>2022-05-01T12:02:39+00:00</lastmod>
+  <lastmod>2022-05-03T04:58:14+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://wangjwchn.github.io/papers/VLDB2021.pdf</loc>
-  <lastmod>2022-05-01T12:02:39+00:00</lastmod>
+  <lastmod>2022-05-03T04:58:14+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://wangjwchn.github.io/papers/VLDB2021-talk.pdf</loc>
-  <lastmod>2022-05-01T12:02:39+00:00</lastmod>
+  <lastmod>2022-05-03T04:58:14+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://wangjwchn.github.io/papers/SCP2020.pdf</loc>
-  <lastmod>2022-05-01T12:02:39+00:00</lastmod>
+  <lastmod>2022-05-03T04:58:14+00:00</lastmod>
   <priority>0.80</priority>
 </url>
 <url>
   <loc>https://wangjwchn.github.io/papers/SETTA2017.pdf</loc>
-  <lastmod>2022-05-01T12:02:39+00:00</lastmod>
+  <lastmod>2022-05-03T04:58:14+00:00</lastmod>
   <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://wangjwchn.github.io/Lausanne.html</loc>
+  <lastmod>2022-05-03T04:58:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://wangjwchn.github.io/Vevey.html</loc>
+  <lastmod>2022-05-03T04:58:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://wangjwchn.github.io/Geneva.html</loc>
+  <lastmod>2022-05-03T04:58:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://wangjwchn.github.io/Sion.html</loc>
+  <lastmod>2022-05-03T04:58:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://wangjwchn.github.io/Chamoson.html</loc>
+  <lastmod>2022-05-03T04:58:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://wangjwchn.github.io/Saint-Malo.html</loc>
+  <lastmod>2022-05-03T04:58:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://wangjwchn.github.io/Rennes.html</loc>
+  <lastmod>2022-05-03T04:58:44+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://wangjwchn.github.io/Paris.html</loc>
+  <lastmod>2022-05-03T04:58:44+00:00</lastmod>
+  <priority>0.64</priority>
 </url>
 
 
