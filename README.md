@@ -8,7 +8,7 @@ I am interested in *concurrency*. My research focuses on how to make the program
 
 ## Publications
 
-**[USENIX ATC'22]** [BBQ: A Block-based Bounded Queue for Exchanging Data and Profiling]().  
+**[USENIX ATC'22]** [BBQ: A Block-based Bounded Queue for Exchanging Data and Profiling](papers/ATC2022.pdf).  
 *Jiawei Wang*, Diogo Behrens, Ming Fu, Lilith Oberhauser, Jonas Oberhauser, Jitang Lei, Geng Chen, Hermann Härtig, and Haibo Chen.
 
 **[VLDB'21]** [AutoGR: Automated Geo-Replication with Fast System Performance and Preserved Application Semantics](papers/VLDB2021.pdf) ([slides](papers/VLDB2021-talk.pdf)).  
@@ -19,7 +19,7 @@ I am interested in *concurrency*. My research focuses on how to make the program
 
 **[SETTA'17]** [Formalizing SPARCv8 Instruction Set Architecture in Coq](papers/SETTA2017.pdf) ([slides](SETTA2017-talk.pdf)).
 *Jiawei Wang*, Ming Fu, Lei Qiao, and Xinyu Feng.  
-**Best Paper Award Honorable Mention**.
+**Best Paper Award Honorable Mention**
 
 ## Experience
 
