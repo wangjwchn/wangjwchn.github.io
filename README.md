@@ -8,16 +8,16 @@ I am interested in *concurrency*. My research focuses on how to make the program
 
 ## Publications
 
-**[USENIX ATC'22]** [BBQ: A Block-based Bounded Queue for Exchanging Data and Profiling](papers/ATC2022.pdf).  
+**[USENIX ATC'22]** [BBQ: A Block-based Bounded Queue for Exchanging Data and Profiling](papers/ATC2022.pdf) ([slides](papers/ATC2022-slides.pdf)).  
 *Jiawei Wang*, Diogo Behrens, Ming Fu, Lilith Oberhauser, Jonas Oberhauser, Jitang Lei, Geng Chen, Hermann Härtig, and Haibo Chen.
 
-**[VLDB'21]** [AutoGR: Automated Geo-Replication with Fast System Performance and Preserved Application Semantics](papers/VLDB2021.pdf) ([slides](papers/VLDB2021-talk.pdf)).  
+**[VLDB'21]** [AutoGR: Automated Geo-Replication with Fast System Performance and Preserved Application Semantics](papers/VLDB2021.pdf) ([slides](papers/VLDB2021-slides.pdf)).  
 *Jiawei Wang*, Cheng Li, Kai Ma, Jingze Huo, Feng Yan, Xinyu Feng, and Yinlong Xu.
 
 **[SCP'20]** [Formalizing SPARCv8 Instruction Set Architecture in Coq.](papers/SCP2020.pdf)  
 *Jiawei Wang*, Ming Fu, Lei Qiao, and Xinyu Feng.
 
-**[SETTA'17]** [Formalizing SPARCv8 Instruction Set Architecture in Coq](papers/SETTA2017.pdf) ([slides](SETTA2017-talk.pdf)).
+**[SETTA'17]** [Formalizing SPARCv8 Instruction Set Architecture in Coq](papers/SETTA2017.pdf) ([slides](papers/SETTA2017-slides.pdf)).
 *Jiawei Wang*, Ming Fu, Lei Qiao, and Xinyu Feng.  
 **Best Paper Award Honorable Mention**
 
