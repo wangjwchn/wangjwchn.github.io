@@ -23,3 +23,5 @@
 ## China
 ### - [Hangzhou](Hangzhou.html)
 ### - [Dongguan](Dongguan.html)
+
+### - [Shanghai](Shanghai.html)
