@@ -23,19 +23,27 @@ I am interested in *concurrency*. My research focuses on how to make the program
 
 ## Experience
 
-**[09.2021 - Present]** Industrial PHD Student in S4C Group, Huawei Dresden Research Center.
+**[09.2021 - Present]**  
+Industrial PHD Student in S4C Group, Huawei Dresden Research Center.
 
-**[02.2021 - 08.2021]** Research assistant in System Research Group, Microsoft Research Asia.
+**[02.2021 - 08.2021]**  
+Research assistant in System Research Group, Microsoft Research Asia.
 
-**[07.2020 - 11.2020]** Research assistant in OS Kernel Lab, Huawei Hangzhou Research Institute.
+**[07.2020 - 11.2020]**  
+Research assistant in OS Kernel Lab, Huawei Hangzhou Research Institute.
 
-**[09.2019 - 01.2020]** Teaching assistant for *Compiler Principles*, USTC (2019, Fall Semester).
+**[09.2019 - 01.2020]**  
+Teaching assistant for *Compiler Principles*, USTC (Fall Semester).
 
-**[09.2018 - 01.2019]** Teaching assistant for *Compiler Principles*, USTC (2018, Fall Semester).
+**[09.2018 - 01.2019]**  
+Teaching assistant for *Compiler Principles*, USTC (Fall Semester).
 
-**[07.2018 - 08.2018]** Teaching assistant for *Computer Programming II*,  USTC (2018, Summer Semester).
+**[07.2018 - 08.2018]**  
+Teaching assistant for *Computer Programming II*,  USTC (Summer Semester).
 
-**[02.2018 - 07.2018]** Teaching assistant for *Computer Programming II*,  USTC (2018, Spring Semester).
+**[02.2018 - 07.2018]**  
+Teaching assistant for *Computer Programming II*,  USTC (Spring Semester).
 
-**[07.2016 - 10.2016]** Research assistant in R&D department of Cloud Storage, Alibaba Cloud.
+**[07.2016 - 10.2016]**  
+Research assistant in R&D department of Cloud Storage, Alibaba Cloud.
 
