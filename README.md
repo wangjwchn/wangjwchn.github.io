@@ -24,7 +24,7 @@ I am interested in *concurrency*. My research focuses on how to make the program
 ## Experience
 
 **[09.2021 - Present]**  
-Industrial PHD Student in S4C Group, Huawei Dresden Research Center.
+Industrial Ph.D. Student in S4C Group, Huawei Dresden Research Center.
 
 **[02.2021 - 08.2021]**  
 Research assistant in System Research Group, Microsoft Research Asia.
