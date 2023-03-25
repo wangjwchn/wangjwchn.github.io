@@ -11,13 +11,13 @@ I am interested in *concurrency*. My research focuses on how to make the program
 **[OSDI'23]** [BWoS: Formally Verified Block-based Work Stealing for Parallel Processing]() (accepted, to appear).  
 *Jiawei Wang*, Bohdan Trach, Ming Fu, Diogo Behrens, Jonathan Schwender, Yutao Liu, Jitang Lei, Viktor Vafeiadis, Hermann Härtig, and Haibo Chen.
 
-**[USENIX ATC'22]** [BBQ: A Block-based Bounded Queue for Exchanging Data and Profiling](papers/ATC2022.pdf) ([slides](papers/ATC2022-slides.pdf)).  
+**[ATC'22]** [BBQ: A Block-based Bounded Queue for Exchanging Data and Profiling](papers/ATC2022.pdf) ([slides](papers/ATC2022-slides.pdf)).  
 *Jiawei Wang*, Diogo Behrens, Ming Fu, Lilith Oberhauser, Jonas Oberhauser, Jitang Lei, Geng Chen, Hermann Härtig, and Haibo Chen.
 
 **[VLDB'21]** [AutoGR: Automated Geo-Replication with Fast System Performance and Preserved Application Semantics](papers/VLDB2021.pdf) ([slides](papers/VLDB2021-slides.pdf)).  
 *Jiawei Wang*, Cheng Li, Kai Ma, Jingze Huo, Feng Yan, Xinyu Feng, and Yinlong Xu.
 
-**[SCP'20]** [Formalizing SPARCv8 Instruction Set Architecture in Coq.](papers/SCP2020.pdf)  
+**[SCP'20]** [Formalizing SPARCv8 Instruction Set Architecture in Coq](papers/SCP2020.pdf) (extended version).  
 *Jiawei Wang*, Ming Fu, Lei Qiao, and Xinyu Feng.
 
 **[SETTA'17]** [Formalizing SPARCv8 Instruction Set Architecture in Coq](papers/SETTA2017.pdf) ([slides](papers/SETTA2017-slides.pdf)).
