@@ -8,7 +8,7 @@ I am interested in *concurrency*. My research focuses on how to make the program
 
 ## Publications
 
-**[OSDI'23]** [BWoS: Formally Verified Block-based Work Stealing for Parallel Processing]() (accepted, to appear).  
+**[OSDI'23]** [BWoS: Formally Verified Block-based Work Stealing for Parallel Processing](papers/OSDI2023.pdf) ([slides]())  
 *Jiawei Wang*, Bohdan Trach, Ming Fu, Diogo Behrens, Jonathan Schwender, Yutao Liu, Jitang Lei, Viktor Vafeiadis, Hermann Härtig, and Haibo Chen.
 
 **[ATC'22]** [BBQ: A Block-based Bounded Queue for Exchanging Data and Profiling](papers/ATC2022.pdf) ([slides](papers/ATC2022-slides.pdf)).  
