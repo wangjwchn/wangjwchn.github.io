@@ -28,3 +28,29 @@ Oude Waal 23, 1011 CB Amsterdam, Netherlands
 \
 \
 \
+![IMG9268](photos/IMG9268.jpg)
+Oudebrugsteeg 16, 1012 JP Amsterdam, Netherlands
+\
+\
+\
+\
+![IMG9264](photos/IMG9264.jpg)
+Oudebrugsteeg 16, 1012 JP Amsterdam, Netherlands
+\
+\
+\
+\
+![IMG9161](photos/IMG9161.jpg)
+Damrak 13, 1012 LH Amsterdam, Netherlands
+\
+\
+\
+\
+![IMG9175](photos/IMG9175.jpg)
+Nieuwezijds Voorburgwal, Amsterdam, Netherlands
+\
+\
+\
+\
+![IMG9159](photos/IMG9159.jpg)
+Stationsplein 20, 1012 AB Amsterdam, Netherlands
