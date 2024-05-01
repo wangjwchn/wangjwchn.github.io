@@ -4,7 +4,7 @@ I am a third year industrial Ph.D. candidate at [Technische Universität Dresden
 
 ## Research Interests
 
-I am interested in *concurrency*. My research focuses on how to make the program run correctly and fast under a concurrent environment. Specifically, I am interested in *system scalability*, *parallel processing systems*, *multi-core concurrency*, and {\it concurrent data structures} combined with *formal verification* techniques.
+I am interested in *concurrency*. My research focuses on how to make the program run correctly and fast under a concurrent environment. Specifically, I am interested in *system scalability*, *parallel processing systems*, *multi-core concurrency*, and *concurrent data structures* combined with *formal verification* techniques.
 
 ## Publications
 
