@@ -1,12 +1,15 @@
 ## About Me
 
-I am a third year industrial Ph.D. student at [Technische Universität Dresden ](https://tu-dresden.de/?set_language=en)(TU Dresden) and [Huawei Dresden Research Center](https://huaweiresearchcentergermanyaustria.teamtailor.com/departments/dresden-research-center) (Huawei DRC), advised by [Dr. Ming Fu](https://brightfu.github.io) and [Prof. Hermann Härtig](http://os.inf.tu-dresden.de/~haertig/). Prior to joining TU Dresden, I was a research assistant with [Fan Yang](https://www.microsoft.com/en-us/research/people/fanyang/) and [Mike Chieh-Jan Liang](https://www.microsoft.com/en-us/research/people/cmliang/) at [Microsoft Research Asia](https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/) (MSR Asia, MSRA). I obtained my Master's degree from [University of Science and Technology of China](http://en.ustc.edu.cn) (USTC), advised by [Prof. Cheng Li](http://staff.ustc.edu.cn/~chengli7) and [Prof. Xinyu Feng](https://cs.nju.edu.cn/xyfeng/). Before that, I obtained my Bachelor's degree from USTC, advised by [Dr. Ming Fu](https://brightfu.github.io) and [Prof. Xinyu Feng](https://cs.nju.edu.cn/xyfeng/).
+I am a third year industrial Ph.D. candidate at [Technische Universität Dresden](https://tu-dresden.de/?set_language=en)(TU Dresden) and [Huawei Dresden Research Center](https://huaweiresearchcentergermanyaustria.teamtailor.com/departments/dresden-research-center) (Huawei DRC), advised by [Dr. Ming Fu](https://brightfu.github.io) and [Prof. Hermann Härtig](http://os.inf.tu-dresden.de/~haertig/). Prior to joining TU Dresden, I was a research assistant with [Fan Yang](https://www.microsoft.com/en-us/research/people/fanyang/) and [Mike Chieh-Jan Liang](https://www.microsoft.com/en-us/research/people/cmliang/) at [Microsoft Research Asia](https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/) (MSR Asia, MSRA). I obtained my Master's degree from [University of Science and Technology of China](http://en.ustc.edu.cn) (USTC), advised by [Prof. Cheng Li](http://staff.ustc.edu.cn/~chengli7) and [Prof. Xinyu Feng](https://cs.nju.edu.cn/xyfeng/). Before that, I obtained my Bachelor's degree from USTC, advised by [Dr. Ming Fu](https://brightfu.github.io) and [Prof. Xinyu Feng](https://cs.nju.edu.cn/xyfeng/).
 
 ## Research Interests
 
-I am interested in *concurrency*. My research focuses on how to make the program run correctly and fast under a concurrent environment. Specifically, I am interested in *weak consistency models*, *relaxed memory models*, and *concurrent data structures* combined with *formal verification* techniques.
+I am interested in *concurrency*. My research focuses on how to make the program run correctly and fast under a concurrent environment. Specifically, I am interested in *system scalability*, *parallel processing systems*, *multi-core concurrency*, and {\it concurrent data structures} combined with *formal verification* techniques.
 
 ## Publications
+
+**[SPAA'24]** [Brief Announcement: Work Stealing through Partial Asynchronous Delegation]()
+*Jiawei Wang*, Yutao Liu, Ming Fu, Hermann Härtig, and Haibo Chen.
 
 **[OSDI'23]** [BWoS: Formally Verified Block-based Work Stealing for Parallel Processing](papers/OSDI2023.pdf) ([slides]())  
 *Jiawei Wang*, Bohdan Trach, Ming Fu, Diogo Behrens, Jonathan Schwender, Yutao Liu, Jitang Lei, Viktor Vafeiadis, Hermann Härtig, and Haibo Chen.
