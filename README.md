@@ -8,7 +8,7 @@ I am interested in *concurrency*. My research focuses on how to make the program
 
 ## Publications
 
-**[SPAA'24]** [Brief Announcement: Work Stealing through Partial Asynchronous Delegation]()
+**[SPAA'24]** [Brief Announcement: Work Stealing through Partial Asynchronous Delegation]()  
 *Jiawei Wang*, Yutao Liu, Ming Fu, Hermann Härtig, and Haibo Chen.
 
 **[OSDI'23]** [BWoS: Formally Verified Block-based Work Stealing for Parallel Processing](papers/OSDI2023.pdf) ([slides]())  
