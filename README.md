@@ -11,10 +11,10 @@ I am interested in *concurrency*. My research focuses on how to make the program
 **[SPAA'24]** [Brief Announcement: Work Stealing through Partial Asynchronous Delegation](papers/SPAA2024.pdf) ([slides](papers/SPAA2024-slides.pdf))  
 *Jiawei Wang*, Yutao Liu, Ming Fu, Hermann Härtig, and Haibo Chen.
 
-**[OSDI'23]** [BWoS: Formally Verified Block-based Work Stealing for Parallel Processing](papers/OSDI2023.pdf) ([slides]())  
+**[OSDI'23]** [BWoS: Formally Verified Block-based Work Stealing for Parallel Processing](papers/OSDI2023.pdf) ([slides](https://www.usenix.org/system/files/osdi23_slides_wang_jiawei.pdf))  
 *Jiawei Wang*, Bohdan Trach, Ming Fu, Diogo Behrens, Jonathan Schwender, Yutao Liu, Jitang Lei, Viktor Vafeiadis, Hermann Härtig, and Haibo Chen.
 
-**[ATC'22]** [BBQ: A Block-based Bounded Queue for Exchanging Data and Profiling](papers/ATC2022.pdf) ([slides](papers/ATC2022-slides.pdf)).  
+**[ATC'22]** [BBQ: A Block-based Bounded Queue for Exchanging Data and Profiling](papers/ATC2022.pdf) ([slides](papers/ATC2022-slides.pdf) and [code](https://github.com/wangjwchn/BBQ)).  
 *Jiawei Wang*, Diogo Behrens, Ming Fu, Lilith Oberhauser, Jonas Oberhauser, Jitang Lei, Geng Chen, Hermann Härtig, and Haibo Chen.
 
 **[VLDB'21]** [AutoGR: Automated Geo-Replication with Fast System Performance and Preserved Application Semantics](papers/VLDB2021.pdf) ([slides](papers/VLDB2021-slides.pdf)).  
