@@ -1,10 +1,10 @@
 ## About Me
 
-I am a third year industrial Ph.D. candidate at [Technische Universität Dresden](https://tu-dresden.de/?set_language=en)(TU Dresden) and [Huawei Dresden Research Center](https://huaweiresearchcentergermanyaustria.teamtailor.com/departments/dresden-research-center) (Huawei DRC), advised by [Dr. Ming Fu](https://brightfu.github.io) and [Prof. Hermann Härtig](http://os.inf.tu-dresden.de/~haertig/). Prior to joining TU Dresden, I was a research assistant with [Fan Yang](https://www.microsoft.com/en-us/research/people/fanyang/) and [Mike Chieh-Jan Liang](https://www.microsoft.com/en-us/research/people/cmliang/) at [Microsoft Research Asia](https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/) (MSR Asia, MSRA). I obtained my Master's degree from [University of Science and Technology of China](http://en.ustc.edu.cn) (USTC), advised by [Prof. Cheng Li](http://staff.ustc.edu.cn/~chengli7) and [Prof. Xinyu Feng](https://cs.nju.edu.cn/xyfeng/). Before that, I obtained my Bachelor's degree from USTC, advised by [Dr. Ming Fu](https://brightfu.github.io) and [Prof. Xinyu Feng](https://cs.nju.edu.cn/xyfeng/).
+I am a system researcher at [Huawei Technologies Co., Ltd](https://www.huawei.com/en/), specializing in the research and development of highly concurrent, low-latency, and non-blocking system components for [HarmonyOS](https://en.wikipedia.org/wiki/HarmonyOS).
 
-## Research Interests
+I obtained my doctorate degree from [Technische Universität Dresden](https://tu-dresden.de/?set_language=en) (TU Dresden), where I was advised by [Dr. Ming Fu](https://brightfu.github.io) and [Prof. Hermann Härtig](http://os.inf.tu-dresden.de/~haertig/). My doctoral research focused on *system scalability*, *parallel processing systems*, *multi-core concurrency*, and *concurrent data structures*, combined with *formal verification* techniques. 
 
-I am interested in *concurrency*. My research focuses on how to make the program run correctly and fast under a concurrent environment. Specifically, I am interested in *system scalability*, *parallel processing systems*, *multi-core concurrency*, and *concurrent data structures* combined with *formal verification* techniques.
+Prior to joining TU Dresden, I worked as a research assistant at [Microsoft Research Asia](https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/) (MSR Asia, MSRA), collaborating with [Fan Yang](https://www.microsoft.com/en-us/research/people/fanyang/) and [Mike Chieh-Jan Liang](https://www.microsoft.com/en-us/research/people/cmliang/). I earned my Master's degree from [University of Science and Technology of China](http://en.ustc.edu.cn) (USTC), under the supervision of [Prof. Cheng Li](http://staff.ustc.edu.cn/~chengli7) and [Prof. Xinyu Feng](https://cs.nju.edu.cn/xyfeng/), focusing on *distributed systems*. My Bachelor’s degree was also obtained from USTC, where I was fortunate to work with [Dr. Ming Fu](https://brightfu.github.io) and [Prof. Xinyu Feng](https://cs.nju.edu.cn/xyfeng/) on *formal verification*.
 
 ## Publications
 
@@ -29,7 +29,10 @@ I am interested in *concurrency*. My research focuses on how to make the program
 
 ## Experience
 
-**[09.2021 - Present]**  
+**[01.2025 - now]**  
+System Researcher, Fields Lab, Huawei
+
+**[09.2021 - 11.2024]**  
 Industrial Ph.D. Student in S4C Group, Huawei Dresden Research Center.
 
 **[02.2021 - 08.2021]**  
