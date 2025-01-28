@@ -9,7 +9,8 @@ Prior to joining TU Dresden, I worked as a research assistant at [Microsoft Rese
 ## Publications
 
 **[ASPLOS'25]** [Enabling Efficient Mobile Tracing with BTrace]()  
-*Jiawei Wang*, Nian Liu, Arnau Casadevall Saiz, Yutao Liu, Diogo Behrens, Ming Fu, Ning Jia, Hermann Härtig, and Haibo Chen. (accepted, to appear)
+*Jiawei Wang*, Nian Liu, Arnau Casadevall Saiz, Yutao Liu, Diogo Behrens, Ming Fu, Ning Jia, Hermann Härtig, and Haibo Chen.  
+(accepted, to appear)
 
 **[SPAA'24]** [Brief Announcement: Work Stealing through Partial Asynchronous Delegation](papers/SPAA2024.pdf) ([slides](papers/SPAA2024-slides.pdf))  
 *Jiawei Wang*, Yutao Liu, Ming Fu, Hermann Härtig, and Haibo Chen.
