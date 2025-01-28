@@ -2,11 +2,14 @@
 
 I am a system researcher at [Huawei Technologies Co., Ltd](https://www.huawei.com/en/), specializing in the research and development of highly concurrent, low-latency, and non-blocking system components for [HarmonyOS](https://en.wikipedia.org/wiki/HarmonyOS).
 
-I obtained my doctorate degree from [Technische Universität Dresden](https://tu-dresden.de/?set_language=en) (TU Dresden), where I was advised by [Dr. Ming Fu](https://brightfu.github.io) and [Prof. Hermann Härtig](http://os.inf.tu-dresden.de/~haertig/). My doctoral research focused on *system scalability*, *parallel processing systems*, *multi-core concurrency*, and *concurrent data structures*, combined with *formal verification* techniques. 
+I obtained my doctorate degree from [Technische Universität Dresden](https://tu-dresden.de/?set_language=en) (TU Dresden), where I was advised by [Dr. Ming Fu](https://brightfu.github.io) and [Prof. Hermann Härtig](http://os.inf.tu-dresden.de/~haertig/). My doctoral research focused on *system scalability*, *parallel processing*, *multi-core concurrency*, and *concurrent data structures*, combined with *formal verification* techniques. 
 
 Prior to joining TU Dresden, I worked as a research assistant at [Microsoft Research Asia](https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/) (MSR Asia, MSRA), collaborating with [Fan Yang](https://www.microsoft.com/en-us/research/people/fanyang/) and [Mike Chieh-Jan Liang](https://www.microsoft.com/en-us/research/people/cmliang/). I earned my Master's degree from [University of Science and Technology of China](http://en.ustc.edu.cn) (USTC), under the supervision of [Prof. Cheng Li](http://staff.ustc.edu.cn/~chengli7) and [Prof. Xinyu Feng](https://cs.nju.edu.cn/xyfeng/), focusing on *distributed systems*. My Bachelor’s degree was also obtained from USTC, where I was fortunate to work with [Dr. Ming Fu](https://brightfu.github.io) and [Prof. Xinyu Feng](https://cs.nju.edu.cn/xyfeng/) on *formal verification*.
 
 ## Publications
+
+**[ASPLOS'25]** [Enabling Efficient Mobile Tracing with BTrace]()  
+*Jiawei Wang*, Nian Liu, Arnau Casadevall Saiz, Yutao Liu, Diogo Behrens, Ming Fu, Ning Jia, Hermann Härtig, and Haibo Chen. (accepted, to appear)
 
 **[SPAA'24]** [Brief Announcement: Work Stealing through Partial Asynchronous Delegation](papers/SPAA2024.pdf) ([slides](papers/SPAA2024-slides.pdf))  
 *Jiawei Wang*, Yutao Liu, Ming Fu, Hermann Härtig, and Haibo Chen.
