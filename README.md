@@ -2,9 +2,9 @@
 
 I am a system researcher at [Huawei](https://www.huawei.com/en/), specializing in the research and development of highly concurrent, low-latency, and non-blocking system components for [HarmonyOS](https://en.wikipedia.org/wiki/HarmonyOS).
 
-I obtained my doctorate degree from [Technische Universität Dresden](https://tu-dresden.de/?set_language=en) (TU Dresden), where I was advised by [Dr. Ming Fu](https://brightfu.github.io) and [Prof. Hermann Härtig](http://os.inf.tu-dresden.de/~haertig/). My doctoral research focused on **system scalability**, **parallel processing**, **multi-core concurrency**, and **concurrent data structures**, combined with **formal verification** techniques. 
+I obtained my doctorate degree from [Technische Universität Dresden](https://tu-dresden.de/?set_language=en) (TU Dresden), where I was advised by [Dr. Ming Fu](https://brightfu.github.io) and [Prof. Hermann Härtig](http://os.inf.tu-dresden.de/~haertig/). My doctoral research focused on *system scalability*, *parallel processing*, *multi-core concurrency*, and *concurrent data structures*, combined with *formal verification* techniques. 
 
-Prior to joining TU Dresden, I worked as a research assistant at [Microsoft Research Asia](https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/) (MSR Asia, MSRA), collaborating with [Fan Yang](https://www.microsoft.com/en-us/research/people/fanyang/) and [Mike Chieh-Jan Liang](https://www.microsoft.com/en-us/research/people/cmliang/). I earned my Master's degree from [University of Science and Technology of China](http://en.ustc.edu.cn) (USTC), under the supervision of [Prof. Cheng Li](http://staff.ustc.edu.cn/~chengli7) and [Prof. Xinyu Feng](https://cs.nju.edu.cn/xyfeng/), focusing on **distributed systems**. My Bachelor’s degree was also obtained from USTC, where I was fortunate to work with [Dr. Ming Fu](https://brightfu.github.io) and [Prof. Xinyu Feng](https://cs.nju.edu.cn/xyfeng/) on **formal verification**.
+Prior to joining TU Dresden, I worked as a research assistant at [Microsoft Research Asia](https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/) (MSR Asia, MSRA), collaborating with [Fan Yang](https://www.microsoft.com/en-us/research/people/fanyang/) and [Mike Chieh-Jan Liang](https://www.microsoft.com/en-us/research/people/cmliang/). I earned my Master's degree from [University of Science and Technology of China](http://en.ustc.edu.cn) (USTC), under the supervision of [Prof. Cheng Li](http://staff.ustc.edu.cn/~chengli7) and [Prof. Xinyu Feng](https://cs.nju.edu.cn/xyfeng/), focusing on *distributed systems*. My Bachelor’s degree was also obtained from USTC, where I was fortunate to work with [Dr. Ming Fu](https://brightfu.github.io) and [Prof. Xinyu Feng](https://cs.nju.edu.cn/xyfeng/) on *formal verification*.
 
 ## Publications
 
@@ -33,7 +33,7 @@ Prior to joining TU Dresden, I worked as a research assistant at [Microsoft Rese
 
 ## Experience
 
-**[01.2025 - now]**  
+**[01.2025 - present]**  
 System Researcher, Fields Lab, Huawei Technologies Co., Ltd
 
 **[09.2021 - 11.2024]**  
