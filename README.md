@@ -34,7 +34,7 @@ Prior to joining TU Dresden, I worked as a research assistant at [Microsoft Rese
 ## Experience
 
 **[01.2025 - present]**  
-System Researcher, Fields Lab, Huawei Technologies Co., Ltd
+System Researcher, Fields Lab, Huawei Technologies Co., Ltd.
 
 **[09.2021 - 11.2024]**  
 Industrial Ph.D. Student in S4C Group, Huawei Dresden Research Center.
