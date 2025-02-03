@@ -1,6 +1,6 @@
 ## About Me
 
-I am a system researcher at [Huawei](https://www.huawei.com/en/), specializing in the research and development of highly concurrent, low-latency, and non-blocking system components for [HarmonyOS](https://en.wikipedia.org/wiki/HarmonyOS).
+I am currently a system researcher at [Huawei](https://www.huawei.com/en/), specializing in the research and development of highly concurrent, low-latency, and non-blocking system components for [HarmonyOS](https://en.wikipedia.org/wiki/HarmonyOS).
 
 I obtained my doctorate degree from [Technische Universität Dresden](https://tu-dresden.de/?set_language=en) (TU Dresden), where I was advised by [Dr. Ming Fu](https://brightfu.github.io) and [Prof. Hermann Härtig](http://os.inf.tu-dresden.de/~haertig/). My doctoral research focused on *system scalability*, *parallel processing*, *multi-core concurrency*, and *concurrent data structures*, combined with *formal verification* techniques. 
 
@@ -9,7 +9,7 @@ Prior to joining TU Dresden, I worked as a research assistant at [Microsoft Rese
 ## Publications
 
 **[ASPLOS'25]** [Enabling Efficient Mobile Tracing with BTrace]()  
-*Jiawei Wang*, Nian Liu, Arnau Casadevall Saiz, Yutao Liu, Diogo Behrens, Ming Fu, Ning Jia, Hermann Härtig, and Haibo Chen.  
+*Jiawei Wang*, Nian Liu, Arnau Casadevall-Saiz, Yutao Liu, Diogo Behrens, Ming Fu, Ning Jia, Hermann Härtig, and Haibo Chen.  
 (accepted, to appear)
 
 **[SPAA'24]** [Brief Announcement: Work Stealing through Partial Asynchronous Delegation](papers/SPAA2024.pdf) ([slides](papers/SPAA2024-slides.pdf))  
@@ -36,7 +36,7 @@ Prior to joining TU Dresden, I worked as a research assistant at [Microsoft Rese
 **[01.2025 - present]**  
 System Researcher, Fields Lab, Huawei Technologies Co., Ltd.
 
-**[09.2021 - 11.2024]**  
+**[09.2021 - 12.2024]**  
 Industrial Ph.D. Student in S4C Group, Huawei Dresden Research Center.
 
 **[02.2021 - 08.2021]**  
