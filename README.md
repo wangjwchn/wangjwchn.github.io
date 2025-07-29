@@ -1,6 +1,6 @@
 ## About Me
 
-I am currently a system researcher at [Huawei](https://www.huawei.com/en/), specializing in the research and development of highly concurrent, low-latency, and non-blocking system components for [HarmonyOS](https://en.wikipedia.org/wiki/HarmonyOS).
+I am currently a system researcher at [Huawei](https://www.huawei.com/en/), specializing in the research and development of highly concurrent, low-latency, and non-blocking system components for [HarmonyOS](https://en.wikipedia.org/wiki/HarmonyOS). I am the principal author of the *tracing system* (core component of [hitrace](https://developer.huawei.com/consumer/en/doc/harmonyos-guides/hitrace)) and the new-generation *user-space memory allocator* for HarmonyOS NEXT.
 
 I obtained my doctorate degree from [Technische Universität Dresden](https://tu-dresden.de/?set_language=en) (TU Dresden), where I was advised by [Dr. Ming Fu](https://mingmfu.github.io) and [Prof. Hermann Härtig](http://os.inf.tu-dresden.de/~haertig/). My doctoral research focused on *system scalability*, *parallel processing*, *multi-core concurrency*, and *concurrent data structures*, combined with *formal verification* techniques. 
 
