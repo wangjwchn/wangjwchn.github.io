@@ -8,25 +8,25 @@ Prior to joining TU Dresden, I worked as a research assistant at [Microsoft Rese
 
 ## Publications
 
-**[ASPLOS'25]** [Enabling Efficient Mobile Tracing with BTrace](papers/ASPLOS2025.pdf) ([slides](papers/ASPLOS2025-slides.pdf))  
+**[ASPLOS'25]** [Enabling Efficient Mobile Tracing with BTrace](papers/ASPLOS2025.pdf) ([Slides](papers/ASPLOS2025-slides.pdf))  
 Jiawei Wang, Nian Liu, Arnau Casadevall-Saiz, Yutao Liu, Diogo Behrens, Ming Fu, Ning Jia, Hermann Härtig, and Haibo Chen.
 
-**[SPAA'24]** [Brief Announcement: Work Stealing through Partial Asynchronous Delegation](papers/SPAA2024.pdf) ([slides](papers/SPAA2024-slides.pdf))  
+**[SPAA'24]** [Brief Announcement: Work Stealing through Partial Asynchronous Delegation](papers/SPAA2024.pdf) ([Slides](papers/SPAA2024-slides.pdf))  
 Jiawei Wang, Yutao Liu, Ming Fu, Hermann Härtig, and Haibo Chen.
 
-**[OSDI'23]** [BWoS: Formally Verified Block-based Work Stealing for Parallel Processing](papers/OSDI2023.pdf) ([slides](https://www.usenix.org/system/files/osdi23_slides_wang_jiawei.pdf))  
+**[OSDI'23]** [BWoS: Formally Verified Block-based Work Stealing for Parallel Processing](papers/OSDI2023.pdf) ([Slides](https://www.usenix.org/system/files/osdi23_slides_wang_jiawei.pdf))  
 Jiawei Wang, Bohdan Trach, Ming Fu, Diogo Behrens, Jonathan Schwender, Yutao Liu, Jitang Lei, Viktor Vafeiadis, Hermann Härtig, and Haibo Chen.
 
-**[USENIX ATC'22]** [BBQ: A Block-based Bounded Queue for Exchanging Data and Profiling](papers/ATC2022.pdf) ([slides](papers/ATC2022-slides.pdf) and [code](https://github.com/wangjwchn/BBQ)).  
+**[USENIX ATC'22]** [BBQ: A Block-based Bounded Queue for Exchanging Data and Profiling](papers/ATC2022.pdf) ([Slides](papers/ATC2022-slides.pdf) and [Code](https://github.com/wangjwchn/BBQ)).  
 Jiawei Wang, Diogo Behrens, Ming Fu, Lilith Oberhauser, Jonas Oberhauser, Jitang Lei, Geng Chen, Hermann Härtig, and Haibo Chen.
 
-**[VLDB'21]** [AutoGR: Automated Geo-Replication with Fast System Performance and Preserved Application Semantics](papers/VLDB2021.pdf) ([slides](papers/VLDB2021-slides.pdf)).  
+**[VLDB'21]** [AutoGR: Automated Geo-Replication with Fast System Performance and Preserved Application Semantics](papers/VLDB2021.pdf) ([Slides](papers/VLDB2021-slides.pdf)).  
 Jiawei Wang, Cheng Li, Kai Ma, Jingze Huo, Feng Yan, Xinyu Feng, and Yinlong Xu.
 
-**[SCP'20]** [Formalizing SPARCv8 Instruction Set Architecture in Coq](papers/SCP2020.pdf) (extended version).  
+**[SCP'20]** [Formalizing SPARCv8 Instruction Set Architecture in Coq](papers/SCP2020.pdf) (Extended Version).  
 Jiawei Wang, Ming Fu, Lei Qiao, and Xinyu Feng.
 
-**[SETTA'17]** [Formalizing SPARCv8 Instruction Set Architecture in Coq](papers/SETTA2017.pdf) ([slides](papers/SETTA2017-slides.pdf)).
+**[SETTA'17]** [Formalizing SPARCv8 Instruction Set Architecture in Coq](papers/SETTA2017.pdf) ([Slides](papers/SETTA2017-slides.pdf)).
 Jiawei Wang, Ming Fu, Lei Qiao, and Xinyu Feng.  
 Best Paper Award Honorable Mention
 
@@ -43,18 +43,6 @@ Research assistant in System Research Group, Microsoft Research Asia.
 
 **[07.2020 - 11.2020]**  
 Research assistant in OS Kernel Lab, Huawei Hangzhou Research Institute.
-
-**[09.2019 - 01.2020]**  
-Teaching assistant for *Compiler Principles*, USTC (Fall Semester).
-
-**[09.2018 - 01.2019]**  
-Teaching assistant for *Compiler Principles*, USTC (Fall Semester).
-
-**[07.2018 - 08.2018]**  
-Teaching assistant for *Computer Programming II*,  USTC (Summer Semester).
-
-**[02.2018 - 07.2018]**  
-Teaching assistant for *Computer Programming II*,  USTC (Spring Semester).
 
 **[07.2016 - 10.2016]**  
 Research assistant in R&D department of Cloud Storage, Alibaba Cloud.
