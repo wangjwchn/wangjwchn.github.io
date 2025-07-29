@@ -1,34 +1,34 @@
 ## About Me
 
-I am currently a system researcher at [Huawei](https://www.huawei.com/en/), specializing in the research and development of highly concurrent, low-latency, and non-blocking system components for [HarmonyOS](https://en.wikipedia.org/wiki/HarmonyOS). I am the principal author of the *tracing system* (core component of [hitrace](https://developer.huawei.com/consumer/en/doc/harmonyos-guides/hitrace)) and the new-generation *user-space memory allocator* for HarmonyOS NEXT.
+I am currently a system researcher at [Huawei](https://www.huawei.com/en/), specializing in the research and development of highly concurrent, low-latency, and non-blocking system components for [HarmonyOS](https://en.wikipedia.org/wiki/HarmonyOS). I am the principal author of the tracing system (core component of [hitrace](https://developer.huawei.com/consumer/en/doc/harmonyos-guides/hitrace)) and the new-generation user-space memory allocator for HarmonyOS NEXT.
 
-I obtained my doctorate degree from [Technische Universität Dresden](https://tu-dresden.de/?set_language=en) (TU Dresden), where I was advised by [Dr. Ming Fu](https://mingmfu.github.io) and [Prof. Hermann Härtig](http://os.inf.tu-dresden.de/~haertig/). My doctoral research focused on *system scalability*, *parallel processing*, *multi-core concurrency*, and *concurrent data structures*, combined with *formal verification* techniques. 
+I obtained my doctorate degree from [Technische Universität Dresden](https://tu-dresden.de/?set_language=en) (TU Dresden), where I was advised by [Dr. Ming Fu](https://mingmfu.github.io) and [Prof. Hermann Härtig](http://os.inf.tu-dresden.de/~haertig/). My doctoral research focused on system scalability, parallel processing, multi-core concurrency, and concurrent data structures, combined with formal verification techniques. 
 
-Prior to joining TU Dresden, I worked as a research assistant at [Microsoft Research Asia](https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/) (MSR Asia, MSRA), collaborating with [Fan Yang](https://www.microsoft.com/en-us/research/people/fanyang/) and [Mike Chieh-Jan Liang](https://www.microsoft.com/en-us/research/people/cmliang/). I earned my Master's degree from [University of Science and Technology of China](http://en.ustc.edu.cn) (USTC), under the supervision of [Prof. Cheng Li](https://mr-cheng-li.github.io) and [Prof. Xinyu Feng](https://cs.nju.edu.cn/xyfeng/), focusing on *distributed systems*. My Bachelor’s degree was also obtained from USTC, where I was fortunate to work with [Dr. Ming Fu](https://mingmfu.github.io) and [Prof. Xinyu Feng](https://cs.nju.edu.cn/xyfeng/) on *formal verification*.
+Prior to joining TU Dresden, I worked as a research assistant at [Microsoft Research Asia](https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/) (MSR Asia, MSRA), collaborating with [Fan Yang](https://www.microsoft.com/en-us/research/people/fanyang/) and [Mike Chieh-Jan Liang](https://www.microsoft.com/en-us/research/people/cmliang/). I earned my Master's degree from [University of Science and Technology of China](http://en.ustc.edu.cn) (USTC), under the supervision of [Prof. Cheng Li](https://mr-cheng-li.github.io) and [Prof. Xinyu Feng](https://cs.nju.edu.cn/xyfeng/), focusing on distributed systems. My Bachelor’s degree was also obtained from USTC, where I was fortunate to work with [Dr. Ming Fu](https://mingmfu.github.io) and [Prof. Xinyu Feng](https://cs.nju.edu.cn/xyfeng/) on formal verification.
 
 ## Publications
 
 **[ASPLOS'25]** [Enabling Efficient Mobile Tracing with BTrace](papers/ASPLOS2025.pdf) ([slides](papers/ASPLOS2025-slides.pdf))  
-*Jiawei Wang*, Nian Liu, Arnau Casadevall-Saiz, Yutao Liu, Diogo Behrens, Ming Fu, Ning Jia, Hermann Härtig, and Haibo Chen.
+Jiawei Wang, Nian Liu, Arnau Casadevall-Saiz, Yutao Liu, Diogo Behrens, Ming Fu, Ning Jia, Hermann Härtig, and Haibo Chen.
 
 **[SPAA'24]** [Brief Announcement: Work Stealing through Partial Asynchronous Delegation](papers/SPAA2024.pdf) ([slides](papers/SPAA2024-slides.pdf))  
-*Jiawei Wang*, Yutao Liu, Ming Fu, Hermann Härtig, and Haibo Chen.
+Jiawei Wang, Yutao Liu, Ming Fu, Hermann Härtig, and Haibo Chen.
 
 **[OSDI'23]** [BWoS: Formally Verified Block-based Work Stealing for Parallel Processing](papers/OSDI2023.pdf) ([slides](https://www.usenix.org/system/files/osdi23_slides_wang_jiawei.pdf))  
-*Jiawei Wang*, Bohdan Trach, Ming Fu, Diogo Behrens, Jonathan Schwender, Yutao Liu, Jitang Lei, Viktor Vafeiadis, Hermann Härtig, and Haibo Chen.
+Jiawei Wang, Bohdan Trach, Ming Fu, Diogo Behrens, Jonathan Schwender, Yutao Liu, Jitang Lei, Viktor Vafeiadis, Hermann Härtig, and Haibo Chen.
 
 **[USENIX ATC'22]** [BBQ: A Block-based Bounded Queue for Exchanging Data and Profiling](papers/ATC2022.pdf) ([slides](papers/ATC2022-slides.pdf) and [code](https://github.com/wangjwchn/BBQ)).  
-*Jiawei Wang*, Diogo Behrens, Ming Fu, Lilith Oberhauser, Jonas Oberhauser, Jitang Lei, Geng Chen, Hermann Härtig, and Haibo Chen.
+Jiawei Wang, Diogo Behrens, Ming Fu, Lilith Oberhauser, Jonas Oberhauser, Jitang Lei, Geng Chen, Hermann Härtig, and Haibo Chen.
 
 **[VLDB'21]** [AutoGR: Automated Geo-Replication with Fast System Performance and Preserved Application Semantics](papers/VLDB2021.pdf) ([slides](papers/VLDB2021-slides.pdf)).  
-*Jiawei Wang*, Cheng Li, Kai Ma, Jingze Huo, Feng Yan, Xinyu Feng, and Yinlong Xu.
+Jiawei Wang, Cheng Li, Kai Ma, Jingze Huo, Feng Yan, Xinyu Feng, and Yinlong Xu.
 
 **[SCP'20]** [Formalizing SPARCv8 Instruction Set Architecture in Coq](papers/SCP2020.pdf) (extended version).  
-*Jiawei Wang*, Ming Fu, Lei Qiao, and Xinyu Feng.
+Jiawei Wang, Ming Fu, Lei Qiao, and Xinyu Feng.
 
 **[SETTA'17]** [Formalizing SPARCv8 Instruction Set Architecture in Coq](papers/SETTA2017.pdf) ([slides](papers/SETTA2017-slides.pdf)).
-*Jiawei Wang*, Ming Fu, Lei Qiao, and Xinyu Feng.  
-**Best Paper Award Honorable Mention**
+Jiawei Wang, Ming Fu, Lei Qiao, and Xinyu Feng.  
+Best Paper Award Honorable Mention
 
 ## Experience
 
