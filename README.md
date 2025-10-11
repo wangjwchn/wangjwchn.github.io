@@ -26,7 +26,7 @@ Prior to joining TU Dresden, I worked as a research assistant at [Microsoft Rese
 **[SCP'20]** [Formalizing SPARCv8 Instruction Set Architecture in Coq](papers/SCP2020.pdf) (Extended Version).  
 *Jiawei Wang*, Ming Fu, Lei Qiao, and Xinyu Feng.
 
-**[SETTA'17]** [Formalizing SPARCv8 Instruction Set Architecture in Coq](papers/SETTA2017.pdf) ([Slides](papers/SETTA2017-slides.pdf)).
+**[SETTA'17]** [Formalizing SPARCv8 Instruction Set Architecture in Coq](papers/SETTA2017.pdf) ([Slides](papers/SETTA2017-slides.pdf)).  
 *Jiawei Wang*, Ming Fu, Lei Qiao, and Xinyu Feng.  
 Best Paper Award Honorable Mention
 
