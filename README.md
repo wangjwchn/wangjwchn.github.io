@@ -1,6 +1,6 @@
 ## About Me
 
-I am a Systems Researcher at [Huawei](https://www.huawei.com/en/), specializing in designing and developing high-concurrency, low-latency, and non-blocking operating system components. I am the principal author of the tracing system (a core component of [HiTrace](https://developer.huawei.com/consumer/en/doc/harmonyos-guides/hitrace)) and the next-generation memory allocator for [HarmonyOS](https://en.wikipedia.org/wiki/HarmonyOS_NEXT), Huawei's commercial operating system.
+I am a Systems Researcher at [Huawei](https://www.huawei.com/en/), specializing in the research and development of high-performance operating system components; I serve as the lead developer for the next-generation memory allocator and the [tracing system](https://developer.huawei.com/consumer/en/doc/harmonyos-guides/hitrace) for [HarmonyOS](https://en.wikipedia.org/wiki/HarmonyOS_NEXT), Huawei's commercial ecosystem serving tens of millions of users.
 
 I obtained my doctorate degree from [Technische Universität Dresden](https://tu-dresden.de/?set_language=en) (TU Dresden), where I was advised by [Dr. Ming Fu](https://mingmfu.github.io) and [Prof. Hermann Härtig](http://os.inf.tu-dresden.de/~haertig/). My doctoral research focused on system scalability, parallel processing, multi-core concurrency, and concurrent data structures, combined with formal verification techniques. 
 
@@ -23,9 +23,6 @@ Prior to joining TU Dresden, I worked as a research assistant at [Microsoft Rese
 
 [**VLDB'21**] [AutoGR: Automated Geo-Replication with Fast System Performance and Preserved Application Semantics](papers/VLDB2021.pdf) ([Slides](papers/VLDB2021-slides.pdf)).  
 *Jiawei Wang*, Cheng Li, Kai Ma, Jingze Huo, Feng Yan, Xinyu Feng, and Yinlong Xu.
-
-[**SCP'20**] [Formalizing SPARCv8 Instruction Set Architecture in Coq](papers/SCP2020.pdf) (Extended Version).  
-*Jiawei Wang*, Ming Fu, Lei Qiao, and Xinyu Feng.
 
 [**SETTA'17**] [Formalizing SPARCv8 Instruction Set Architecture in Coq](papers/SETTA2017.pdf) ([Slides](papers/SETTA2017-slides.pdf)).  
 *Jiawei Wang*, Ming Fu, Lei Qiao, and Xinyu Feng.  
