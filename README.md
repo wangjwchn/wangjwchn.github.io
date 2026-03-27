@@ -1,10 +1,16 @@
 ## About Me
 
-I am a Systems Researcher at [Huawei](https://www.huawei.com/en/), specializing in designing and developing high-concurrency, low-latency, and non-blocking operating system components. I obtained my doctorate degree from [Technische Universität Dresden](https://tu-dresden.de/?set_language=en) (TU Dresden), where I was advised by [Dr. Ming Fu](https://mingmfu.github.io) and [Prof. Hermann Härtig](http://os.inf.tu-dresden.de/~haertig/). My doctoral research focused on system scalability, parallel processing, multi-core concurrency, and concurrent data structures, combined with formal verification techniques. 
+I am a Systems Researcher at [Huawei](https://www.huawei.com/en/), specializing in designing and developing high-concurrency, low-latency, and non-blocking operating system components. I am the principal author of the tracing system (a core component of [HiTrace](https://developer.huawei.com/consumer/en/doc/harmonyos-guides/hitrace)) and the next-generation memory allocator for [HarmonyOS](https://en.wikipedia.org/wiki/HarmonyOS_NEXT), Huawei's commercial operating system.
+
+I obtained my doctorate degree from [Technische Universität Dresden](https://tu-dresden.de/?set_language=en) (TU Dresden), where I was advised by [Dr. Ming Fu](https://mingmfu.github.io) and [Prof. Hermann Härtig](http://os.inf.tu-dresden.de/~haertig/). My doctoral research focused on system scalability, parallel processing, multi-core concurrency, and concurrent data structures, combined with formal verification techniques. 
 
 Prior to joining TU Dresden, I worked as a research assistant at [Microsoft Research Asia](https://www.microsoft.com/en-us/research/lab/microsoft-research-asia/) (MSR Asia). I earned my Master's degree from [University of Science and Technology of China](http://en.ustc.edu.cn) (USTC), under the supervision of [Prof. Cheng Li](https://mr-cheng-li.github.io) and [Prof. Xinyu Feng](https://cs.nju.edu.cn/xyfeng/), focusing on distributed systems. My Bachelor’s degree was also obtained from USTC, where I was fortunate to work with [Dr. Ming Fu](https://mingmfu.github.io) and [Prof. Xinyu Feng](https://cs.nju.edu.cn/xyfeng/) on formal verification.
 
 ## Publications
+
+**[OSDI'26]** [jwmalloc: A Verified Memory Allocator for Mobile Devices] ()  
+*Jiawei Wang*, Ming Fu, Ruixian Wang, Chao Xu, Jonas Oberhauser, and Haibo Chen.  
+Accepted, to appear
 
 **[ASPLOS'25]** [Enabling Efficient Mobile Tracing with BTrace](papers/ASPLOS2025.pdf) ([Slides](papers/ASPLOS2025-slides.pdf))  
 *Jiawei Wang*, Nian Liu, Arnau Casadevall-Saiz, Yutao Liu, Diogo Behrens, Ming Fu, Ning Jia, Hermann Härtig, and Haibo Chen.
