@@ -8,6 +8,7 @@ body {
   color: #2d3436;
   background-color: #ffffff;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  line-height: normal;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
 }
@@ -72,6 +73,12 @@ header {
 
 section {
   width: calc(100% - 300px); /* 主内容区宽度 */
+}
+
+@media screen and (min-width: 641px) {
+  body {
+    line-height: 1.6;
+  }
 }
 
 @media print, screen and (max-width: 960px) {
