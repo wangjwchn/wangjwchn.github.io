@@ -1,0 +1,70 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+/* 1. 优化配色方案 */
+body {
+  color: #2d3436;
+  background-color: #ffffff;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+}
+
+a {
+  color: #0984e3; /* 更现代的蓝色 */
+  text-decoration: none;
+  transition: color 0.2s ease-in-out;
+}
+
+/* 2. 优化鼠标悬停效果：不加粗，换色 */
+a:hover {
+  color: #74b9ff; /* 悬停时变为浅蓝色 */
+  text-decoration: underline;
+  font-weight: normal !important; /* 强制不加粗 */
+}
+
+header a:hover {
+  font-weight: normal !important;
+}
+
+/* 3. 整体字体优化 */
+h1, h2, h3, h4, h5, h6 {
+  color: #2d3436;
+  font-weight: 600;
+}
+
+code {
+  font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+  background-color: #f1f2f6;
+  padding: 2px 4px;
+  border-radius: 4px;
+}
+
+/* 4. 布局加宽 */
+.wrapper {
+  max-width: 1000px; /* 从默认的较窄宽度增加到 1000px */
+  margin: 0 auto;
+  padding: 40px;
+}
+
+/* 针对 minimal 主题的特定调整 */
+header {
+  width: 250px; /* 侧边栏宽度 */
+}
+
+section {
+  width: calc(100% - 300px); /* 主内容区宽度 */
+}
+
+@media print, screen and (max-width: 960px) {
+  .wrapper {
+    width: auto;
+    margin: 0;
+  }
+  
+  header, section {
+    float: none;
+    position: static;
+    width: auto;
+  }
+}
