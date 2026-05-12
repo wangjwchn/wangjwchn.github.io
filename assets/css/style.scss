@@ -87,3 +87,10 @@ section {
     width: auto;
   }
 }
+
+@media screen and (max-width: 640px) {
+  .wrapper {
+    padding-left: 15px !important;
+    padding-right: 15px !important;
+  }
+}
