@@ -11,16 +11,18 @@ body {
 }
 
 a {
-  color: #0984e3; /* 更现代的蓝色 */
+  color: #34495e; /* 深灰蓝色，更接近黑色但保留链接感 */
   text-decoration: none;
-  transition: color 0.2s ease-in-out;
+  border-bottom: 1px solid rgba(52, 73, 94, 0.1); /* 淡淡的下划线增加质感 */
+  transition: all 0.2s ease-in-out;
 }
 
 /* 2. 优化鼠标悬停效果：不加粗，换色 */
 a:hover {
-  color: #74b9ff; /* 悬停时变为浅蓝色 */
-  text-decoration: underline;
-  font-weight: normal !important; /* 强制不加粗 */
+  color: #2980b9; /* 悬停时稍微变亮一点 */
+  text-decoration: none;
+  border-bottom: 1px solid #2980b9;
+  font-weight: normal !important;
 }
 
 header a:hover {
@@ -31,6 +33,14 @@ header a:hover {
 h1, h2, h3, h4, h5, h6 {
   color: #2d3436;
   font-weight: 600;
+  line-height: 1.2; /* 修复字母 J 等可能出现的对齐问题 */
+  display: flex;
+  align-items: baseline;
+}
+
+header h2 a {
+  line-height: 1;
+  vertical-align: middle;
 }
 
 code {
