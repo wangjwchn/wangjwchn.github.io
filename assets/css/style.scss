@@ -8,6 +8,15 @@ body {
   color: #2d3436;
   background-color: #ffffff;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  line-height: 1.6; /* 增加整体行高，更易读 */
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+section p {
+  text-align: justify; /* 两端对齐，解决换行参差不齐 */
+  hyphens: auto;
+  margin-bottom: 1.5em;
 }
 
 a {
@@ -33,9 +42,14 @@ header a:hover {
 h1, h2, h3, h4, h5, h6 {
   color: #2d3436;
   font-weight: 600;
-  line-height: 1.2; /* 修复字母 J 等可能出现的对齐问题 */
-  display: flex;
-  align-items: baseline;
+  line-height: 1.2;
+  margin-top: 2.5em; /* 增加标题上方的间距，让模块区分更明显 */
+  margin-bottom: 1em;
+}
+
+header h2 {
+  margin-top: 0; /* 侧边栏顶部标题不需要额外间距 */
+  font-size: 1.5em;
 }
 
 header h2 a {
