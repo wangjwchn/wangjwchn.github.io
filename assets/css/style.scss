@@ -43,13 +43,8 @@ h1, h2, h3, h4, h5, h6 {
   color: #2d3436;
   font-weight: 600;
   line-height: 1.2;
-  margin-top: 2.5em; /* 增加标题上方的间距，让模块区分更明显 */
-  margin-bottom: 1em;
-}
-
-header h2 {
-  margin-top: 0; /* 侧边栏顶部标题不需要额外间距 */
-  font-size: 1.5em;
+  display: flex;
+  align-items: baseline;
 }
 
 header h2 a {
