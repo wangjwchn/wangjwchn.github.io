@@ -28,7 +28,7 @@ Prior to joining TU Dresden, I worked as a research assistant at [Microsoft Rese
 *Jiawei Wang*, Ming Fu, Lei Qiao, and Xinyu Feng  
 Best Paper Award Honorable Mention
 
-## Recent Experience
+## Recent Experiences
 
 System Researcher, Huawei *(01.2025 - present)*  
 
