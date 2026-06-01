@@ -18,7 +18,7 @@ Before joining TU Dresden, I worked as a research assistant at [Microsoft Resear
 [**OSDI'23**] [BWoS: Formally Verified Block-based Work Stealing for Parallel Processing](papers/OSDI2023.pdf) ([Slides](https://www.usenix.org/system/files/osdi23_slides_wang_jiawei.pdf))  
 *Jiawei Wang*, Bohdan Trach, Ming Fu, Diogo Behrens, Jonathan Schwender, Yutao Liu, Jitang Lei, Viktor Vafeiadis, Hermann Härtig, and Haibo Chen
 
-[**USENIX ATC'22**] [BBQ: A Block-based Bounded Queue for Exchanging Data and Profiling](papers/ATC2022.pdf) ([Slides](papers/ATC2022-slides.pdf) and [Code](https://github.com/wangjwchn/BBQ))  
+[**USENIX ATC'22**] [BBQ: A Block-based Bounded Queue for Exchanging Data and Profiling](papers/ATC2022.pdf) ([Slides](papers/ATC2022-slides.pdf))  
 *Jiawei Wang*, Diogo Behrens, Ming Fu, Lilith Oberhauser, Jonas Oberhauser, Jitang Lei, Geng Chen, Hermann Härtig, and Haibo Chen
 
 [**VLDB'21**] [AutoGR: Automated Geo-Replication with Fast System Performance and Preserved Application Semantics](papers/VLDB2021.pdf) ([Slides](papers/VLDB2021-slides.pdf))  
