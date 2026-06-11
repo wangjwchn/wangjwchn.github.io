@@ -294,56 +294,9 @@
         </div>
     </div>
 
+    <script src="./footprintData.js"></script>
+
     <script>
-        // ==========================================
-        // 1. 数据配置中心
-        // ==========================================
-        const footprintData = [
-            // --- 瑞士 Switzerland ---
-            { city: "Lausanne", country: "Switzerland", coords: [46.5197, 6.6323], images: ["IMG321.jpeg", "IMG322.jpeg", "IMG323.jpeg", "IMG414.jpg"] },
-            { city: "Vevey", country: "Switzerland", coords: [46.4628, 6.8419], images: ["IMG325.jpeg", "IMG326.jpeg", "IMG409.jpg", "IMG410.jpg"] },
-            { city: "Geneva", country: "Switzerland", coords: [46.2044, 6.1432], images: ["IMG331.jpeg", "IMG330.jpeg", "IMG411.jpg"] },
-            { city: "Sion", country: "Switzerland", coords: [46.2330, 7.3606], images: ["IMG328.jpeg"] },
-            { city: "Chamoson", country: "Switzerland", coords: [46.1981, 7.2255], images: ["IMG329.jpeg"] },
-
-            // --- 法国 France ---
-            { city: "Saint-Malo", country: "France", coords: [48.6493, -2.0257], images: ["IMG336.jpg", "IMG337.jpg", "IMG338.jpg"] },
-            { city: "Rennes", country: "France", coords: [48.1173, -1.6778], images: ["IMG339.jpg", "IMG340.jpg", "IMG341.jpg", "IMG413.jpg"] },
-            { city: "Paris", country: "France", coords: [48.8566, 2.3522], images: ["IMG342.jpg", "IMG343.jpg", "IMG344.jpg"] },
-
-            // --- 德国 Germany ---
-            { city: "Senftenberg", country: "Germany", coords: [51.5204, 14.0055], images: ["IMG353.jpg"] },
-            { city: "Bautzen", country: "Germany", coords: [51.1816, 14.4239], images: ["IMG354.jpg", "IMG356.jpg"] },
-            { city: "Rathen", country: "Germany", coords: [50.9575, 14.0811], images: ["IMG355.jpg", "IMG357.jpg"] },
-            { city: "Lohmen", country: "Germany", coords: [50.9892, 13.9961], images: ["IMG358.jpg", "IMG359.jpg"] },
-            { city: "Königstein", country: "Germany", coords: [50.9186, 14.0722], images: ["IMG377.jpg"] },
-            { city: "Dresden", country: "Germany", coords: [51.0504, 13.7373], images: ["IMG378.jpg", "IMG379.jpg", "IMG380.jpg", "IMG391.jpg", "IMG392.jpg"] },
-
-            // --- 中国 China ---
-            { city: "Hangzhou", country: "China", coords: [30.2741, 120.1551], images: ["IMG393.jpg"] },
-            { city: "Dongguan", country: "China", coords: [22.9430, 113.7518], images: ["IMG412.jpg", "IMG454.jpg"] },
-            { city: "Shanghai", country: "China", coords: [31.2304, 121.4737], images: ["IMG455.jpg", "IMG456.jpg"] },
-
-            // --- 克罗地亚 Croatia ---
-            { city: "Split", country: "Croatia", coords: [43.5081, 16.4402], images: ["IMG506.jpg", "IMG505.jpg"] },
-            { city: "Hvar", country: "Croatia", coords: [43.1729, 16.4427], images: ["IMG501.jpg", "IMG504.jpg", "IMG503.jpg"] },
-            { city: "Dubrovnik", country: "Croatia", coords: [42.6507, 18.0944], images: ["IMG500.jpg", "IMG502.jpg", "IMG499.jpg", "IMG498.jpg"] },
-
-            // --- 荷兰 Netherlands ---
-            { 
-                city: "Amsterdam", 
-                country: "Netherlands", 
-                coords: [52.3676, 4.9041], 
-                images: [
-                    "IMG121.jpg", "IMG9417.jpg", "IMG9401.jpg", "IMG133.jpg", "IMG9326.jpg", 
-                    "IMG9268.jpg", "IMG9264.jpg", "IMG9161.jpg", "IMG9175.jpg", "IMG9159.jpg"
-                ] 
-            },
-            { city: "Almere", country: "Netherlands", coords: [52.3702, 5.2230], images: ["IMG9105.jpg"] },
-            { city: "Badhoevedorp", country: "Netherlands", coords: [52.3361, 4.7861], images: ["IMG9149.jpg"] },
-            { city: "Kluutweg", country: "Netherlands", coords: [52.3942, 5.2721], images: ["IMG9084.jpg"] }
-        ];
-
         // ==========================================
         // 2. 初始化地图并锁定世界边界
         // ==========================================
