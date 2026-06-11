@@ -1,0 +1,494 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jiawei Wang's Photography Footprints</title>
+    
+    <link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
+    
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.css" />
+    <link rel="stylesheet" href="https://unpkg.com/leaflet.markercluster@1.5.3/dist/MarkerCluster.Default.css" />
+    <script src="https://unpkg.com/leaflet.markercluster@1.5.3/dist/leaflet.markercluster.js"></script>
+
+    <style>
+        :root {
+            --bg-color: #f7f9fa;
+            --text-color: #2c3e50;
+            --accent-color: #2ecc71; /* 翡翠绿 */
+            --hover-color: #f1c40f;  /* 悬浮高亮明黄色 */
+        }
+
+        body, html {
+            margin: 0;
+            padding: 0;
+            width: 100%;
+            height: 100%;
+            font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+            background-color: var(--bg-color);
+            overflow: hidden;
+        }
+
+        #main-container {
+            display: flex;
+            width: 100vw;
+            height: 100vh;
+        }
+
+        #map-container {
+            flex: 1;
+            height: 100%;
+            position: relative;
+        }
+
+        #map {
+            width: 100%;
+            height: 100%;
+            background: #f4f6f7;
+        }
+
+        /* 右侧照片画廊面板 */
+        #gallery-panel {
+            width: 0;
+            height: 100%;
+            background: #ffffff;
+            box-shadow: -5px 0 25px rgba(0,0,0,0.05);
+            transition: width 0.4s cubic-bezier(0.25, 1, 0.5, 1);
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            z-index: 1000;
+        }
+
+        #gallery-panel.active {
+            width: 55vw; 
+        }
+
+        /* 优化：极致压缩头部高度与留白 */
+        .gallery-header {
+            padding: 12px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid #f0f0f0;
+            height: 45px;
+            box-sizing: border-box;
+        }
+
+        .gallery-title {
+            margin: 0;
+            font-size: 1.1rem;
+            font-weight: 500;
+            color: var(--text-color);
+            letter-spacing: 0.5px;
+        }
+
+        .close-btn {
+            background: none;
+            border: none;
+            font-size: 1.5rem;
+            cursor: pointer;
+            color: #999;
+            transition: color 0.2s;
+            padding: 0;
+            line-height: 1;
+        }
+        .close-btn:hover { color: #e74c3c; }
+
+        /* 右侧照片画廊面板 */
+        #gallery-panel {
+            width: 0;
+            height: 100%;
+            background: #ffffff;
+            box-shadow: -5px 0 25px rgba(0,0,0,0.05);
+            transition: width 0.4s cubic-bezier(0.25, 1, 0.5, 1);
+            display: flex;
+            flex-direction: column;
+            position: relative;
+            z-index: 1000;
+        }
+
+        #gallery-panel.active {
+            width: 55vw; 
+        }
+
+        /* 极致压缩头部高度 */
+        .gallery-header {
+            padding: 12px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            border-bottom: 1px solid #f0f0f0;
+            height: 45px;
+            box-sizing: border-box;
+        }
+
+        .gallery-title {
+            margin: 0;
+            font-size: 1.1rem;
+            font-weight: 500;
+            color: var(--text-color);
+            letter-spacing: 0.5px;
+        }
+
+        .close-btn {
+            background: none;
+            border: none;
+            font-size: 1.5rem;
+            cursor: pointer;
+            color: #999;
+            transition: color 0.2s;
+            padding: 0;
+            line-height: 1;
+        }
+        .close-btn:hover { color: #e74c3c; }
+
+        .gallery-content {
+            flex: 1;
+            display: flex;
+            position: relative;
+            background: #fafafa;
+            overflow: hidden;
+        }
+
+        /* 核心修改：通过 padding 划分出绝对安全的错开区域 */
+        .img-wrapper {
+            width: 100%;
+            height: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            /* 上10px，左右各留52px给按钮，下留32px给页码。图片永远不会越界进入这些区域 */
+            padding: 10px 52px 32px 52px; 
+            box-sizing: border-box;
+        }
+
+        /* 图片在安全区内自由拉满，绝不缩水 */
+        .gallery-img {
+            max-width: 100%;
+            max-height: 100%;
+            object-fit: contain;
+            box-shadow: 0 8px 25px rgba(0,0,0,0.06);
+            border-radius: 4px;
+            opacity: 0;
+            transition: opacity 0.2s ease-in-out;
+        }
+
+        .gallery-img.loaded {
+            opacity: 1;
+        }
+
+        /* 按钮稍微缩小一点（36px），紧凑地贴在左右安全通道内 */
+        .nav-btn {
+            position: absolute;
+            top: 50%;
+            transform: translateY(-50%);
+            background: #ffffff;
+            border: 1px solid rgba(0, 0, 0, 0.06);
+            width: 36px;
+            height: 36px;
+            border-radius: 50%;
+            font-size: 0.95rem;
+            cursor: pointer;
+            box-shadow: 0 2px 8px rgba(0,0,0,0.04);
+            transition: all 0.2s;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #555;
+            z-index: 1010;
+        }
+        .nav-btn:hover {
+            background: var(--text-color);
+            color: #fff;
+        }
+        #prev-btn { left: 8px; }
+        #next-btn { right: 8px; }
+
+        /* 页码恢复为轻量现代的文本，规整地排在底部安全通道内 */
+        .img-counter {
+            position: absolute;
+            bottom: 8px;
+            left: 50%;
+            transform: translateX(-50%);
+            color: #999;
+            font-size: 0.8rem;
+            font-weight: 500;
+            letter-spacing: 0.5px;
+            z-index: 1010;
+            pointer-events: none;
+        }
+
+        /* 并排一体化标签样式 */
+        .city-tag-container {
+            display: flex;
+            align-items: center;
+            white-space: nowrap;
+            cursor: pointer;
+            margin-left: -7px; 
+            margin-top: -7px;
+        }
+
+        .city-tag-dot {
+            width: 12px;
+            height: 12px;
+            background-color: var(--accent-color);
+            border: 2px solid #fff;
+            border-radius: 50%;
+            box-shadow: 0 0 8px rgba(46, 204, 113, 0.6);
+            transition: background-color 0.2s, transform 0.2s, box-shadow 0.2s;
+            flex-shrink: 0;
+        }
+
+        .city-tag-text {
+            margin-left: 8px;
+            font-size: 0.85rem;
+            font-weight: 600;
+            color: #2c3e50;
+            background-color: rgba(255, 255, 255, 0.9);
+            padding: 3px 8px;
+            border-radius: 12px;
+            border: 1px solid rgba(0,0,0,0.06);
+            box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+            transition: all 0.2s;
+        }
+
+        .city-tag-container:hover .city-tag-dot {
+            background-color: var(--hover-color);
+            box-shadow: 0 0 10px rgba(241, 196, 15, 0.8);
+            transform: scale(1.2);
+        }
+
+        .city-tag-container:hover .city-tag-text {
+            color: #000;
+            background-color: #ffffff;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.12);
+            border-color: var(--hover-color);
+        }
+        
+        .marker-cluster-small, .marker-cluster-small div { background-color: rgba(46, 204, 113, 0.2); }
+        .marker-cluster-small div { background-color: rgba(46, 204, 113, 0.6); color: white; }
+    </style>
+</head>
+<body>
+
+    <div id="main-container">
+        <div id="map-container">
+            <div id="map"></div>
+        </div>
+        
+        <div id="gallery-panel">
+            <div class="gallery-header">
+                <h2 id="gallery-title" class="gallery-title">City Name</h2>
+                <button class="close-btn" onclick="closeGallery()">&times;</button>
+            </div>
+            <div class="gallery-content">
+                <button id="prev-btn" class="nav-btn" onclick="changeImage(-1)">&#10094;</button>
+                <div class="img-wrapper">
+                    <img id="gallery-img" class="gallery-img" src="" alt="Photography">
+                </div>
+                <button id="next-btn" class="nav-btn" onclick="changeImage(1)">&#10095;</button>
+                <div id="img-counter" class="img-counter">1 / 1</div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // ==========================================
+        // 1. 数据配置中心
+        // ==========================================
+        const footprintData = [
+            // --- 瑞士 Switzerland ---
+            { city: "Lausanne", country: "Switzerland", coords: [46.5197, 6.6323], images: ["IMG321.jpeg", "IMG322.jpeg", "IMG323.jpeg", "IMG414.jpg"] },
+            { city: "Vevey", country: "Switzerland", coords: [46.4628, 6.8419], images: ["IMG325.jpeg", "IMG326.jpeg", "IMG409.jpg", "IMG410.jpg"] },
+            { city: "Geneva", country: "Switzerland", coords: [46.2044, 6.1432], images: ["IMG331.jpeg", "IMG330.jpeg", "IMG411.jpg"] },
+            { city: "Sion", country: "Switzerland", coords: [46.2330, 7.3606], images: ["IMG328.jpeg"] },
+            { city: "Chamoson", country: "Switzerland", coords: [46.1981, 7.2255], images: ["IMG329.jpeg"] },
+
+            // --- 法国 France ---
+            { city: "Saint-Malo", country: "France", coords: [48.6493, -2.0257], images: ["IMG336.jpg", "IMG337.jpg", "IMG338.jpg"] },
+            { city: "Rennes", country: "France", coords: [48.1173, -1.6778], images: ["IMG339.jpg", "IMG340.jpg", "IMG341.jpg", "IMG413.jpg"] },
+            { city: "Paris", country: "France", coords: [48.8566, 2.3522], images: ["IMG342.jpg", "IMG343.jpg", "IMG344.jpg"] },
+
+            // --- 德国 Germany ---
+            { city: "Senftenberg", country: "Germany", coords: [51.5204, 14.0055], images: ["IMG353.jpg"] },
+            { city: "Bautzen", country: "Germany", coords: [51.1816, 14.4239], images: ["IMG354.jpg", "IMG356.jpg"] },
+            { city: "Rathen", country: "Germany", coords: [50.9575, 14.0811], images: ["IMG355.jpg", "IMG357.jpg"] },
+            { city: "Lohmen", country: "Germany", coords: [50.9892, 13.9961], images: ["IMG358.jpg", "IMG359.jpg"] },
+            { city: "Königstein", country: "Germany", coords: [50.9186, 14.0722], images: ["IMG377.jpg"] },
+            { city: "Dresden", country: "Germany", coords: [51.0504, 13.7373], images: ["IMG378.jpg", "IMG379.jpg", "IMG380.jpg", "IMG391.jpg", "IMG392.jpg"] },
+
+            // --- 中国 China ---
+            { city: "Hangzhou", country: "China", coords: [30.2741, 120.1551], images: ["IMG393.jpg"] },
+            { city: "Dongguan", country: "China", coords: [22.9430, 113.7518], images: ["IMG412.jpg", "IMG454.jpg"] },
+            { city: "Shanghai", country: "China", coords: [31.2304, 121.4737], images: ["IMG455.jpg", "IMG456.jpg"] },
+
+            // --- 克罗地亚 Croatia ---
+            { city: "Split", country: "Croatia", coords: [43.5081, 16.4402], images: ["IMG506.jpg", "IMG505.jpg"] },
+            { city: "Hvar", country: "Croatia", coords: [43.1729, 16.4427], images: ["IMG501.jpg", "IMG504.jpg", "IMG503.jpg"] },
+            { city: "Dubrovnik", country: "Croatia", coords: [42.6507, 18.0944], images: ["IMG500.jpg", "IMG502.jpg", "IMG499.jpg", "IMG498.jpg"] },
+
+            // --- 荷兰 Netherlands ---
+            { 
+                city: "Amsterdam", 
+                country: "Netherlands", 
+                coords: [52.3676, 4.9041], 
+                images: [
+                    "IMG121.jpg", "IMG9417.jpg", "IMG9401.jpg", "IMG133.jpg", "IMG9326.jpg", 
+                    "IMG9268.jpg", "IMG9264.jpg", "IMG9161.jpg", "IMG9175.jpg", "IMG9159.jpg"
+                ] 
+            },
+            { city: "Almere", country: "Netherlands", coords: [52.3702, 5.2230], images: ["IMG9105.jpg"] },
+            { city: "Badhoevedorp", country: "Netherlands", coords: [52.3361, 4.7861], images: ["IMG9149.jpg"] },
+            { city: "Kluutweg", country: "Netherlands", coords: [52.3942, 5.2721], images: ["IMG9084.jpg"] }
+        ];
+
+        // ==========================================
+        // 2. 初始化地图并锁定世界边界
+        // ==========================================
+        const southWest = L.latLng(-85, -180);
+        const northEast = L.latLng(85, 180);
+        const bounds = L.latLngBounds(southWest, northEast);
+
+        const map = L.map('map', {
+            center: [46.5, 8.5], 
+            zoom: 5,
+            minZoom: 2,         
+            maxBounds: bounds,  
+            maxBoundsViscosity: 1.0, 
+            zoomControl: false 
+        });
+
+        L.control.zoom({ position: 'bottomleft' }).addTo(map);
+
+        L.tileLayer('https://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}{r}.png', {
+            attribution: '&copy; <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a> &copy; <a href="https://carto.com/attributions">CARTO</a>'
+        }).addTo(map);
+
+        // ==========================================
+        // 3. 无重叠聚合器（MarkerCluster 配置）
+        // ==========================================
+        const markers = L.markerClusterGroup({
+            spiderfyOnMaxZoom: true,
+            showCoverageOnHover: false,
+            zoomToBoundsOnClick: true,
+            maxClusterRadius: 35 
+        });
+
+        let currentCityData = null;
+        let currentImgIndex = 0;
+
+        footprintData.forEach(item => {
+            const tagHtml = `
+                <div class="city-tag-container">
+                    <div class="city-tag-dot"></div>
+                    <span class="city-tag-text">${item.city}</span>
+                </div>
+            `;
+
+            const customIcon = L.divIcon({
+                html: tagHtml,
+                className: '', 
+                iconSize: [14, 14],
+                iconAnchor: [7, 7] 
+            });
+
+            const marker = L.marker(item.coords, { icon: customIcon });
+
+            marker.on('click', () => {
+                openGallery(item);
+                map.panTo(item.coords);
+            });
+
+            markers.addLayer(marker);
+        });
+
+        map.addLayer(markers);
+
+        // ==========================================
+        // 新增：点击地图空白区域自动关闭画廊面板
+        // ==========================================
+        map.on('click', (e) => {
+            // 如果触发点击的不是标记(Marker)，而是地图背景，则关闭面板
+            if (panel.classList.contains('active')) {
+                closeGallery();
+            }
+        });
+
+        // ==========================================
+        // 4. 右侧画廊与核心高帧率动效逻辑
+        // ==========================================
+        const panel = document.getElementById('gallery-panel');
+        const gTitle = document.getElementById('gallery-title');
+        const gImg = document.getElementById('gallery-img');
+        const gCounter = document.getElementById('img-counter');
+
+        // 抽取公共的帧动画尺寸刷新器
+        function syncMapSizeWithTransition(durationMs) {
+            const start = performance.now();
+            function step(timestamp) {
+                const elapsed = timestamp - start;
+                // pan: true 告诉 Leaflet 在容器变化时通过平移锚定地理中心，杜绝硬跳
+                map.invalidateSize({ pan: true }); 
+                if (elapsed < durationMs) {
+                    requestAnimationFrame(step);
+                }
+            }
+            requestAnimationFrame(step);
+        }
+
+        function openGallery(data) {
+            currentCityData = data;
+            currentImgIndex = 0;
+            
+            gTitle.innerText = `${data.city}, ${data.country}`;
+            panel.classList.add('active');
+            
+            // 打开时同步渲染尺寸，使左侧收缩和 panTo 动画完美契合
+            syncMapSizeWithTransition(400);
+            showImage();
+        }
+
+        function closeGallery() {
+            panel.classList.remove('active');
+            
+            // 核心修改：关闭时启动 400ms 的高频重绘循环，使地图完美跟随面板的滑出而自然展开
+            syncMapSizeWithTransition(400);
+        }
+
+        function showImage() {
+            if (!currentCityData || currentCityData.images.length === 0) return;
+            
+            gImg.classList.remove('loaded');
+            gImg.src = `./photos/${currentCityData.images[currentImgIndex]}`;
+            
+            gImg.onload = () => {
+                gImg.classList.add('loaded');
+            };
+
+            gCounter.innerText = `${currentImgIndex + 1} / ${currentCityData.images.length}`;
+
+            document.getElementById('prev-btn').style.display = currentCityData.images.length > 1 ? 'flex' : 'none';
+            document.getElementById('next-btn').style.display = currentCityData.images.length > 1 ? 'flex' : 'none';
+        }
+
+        function changeImage(step) {
+            if (!currentCityData) return;
+            currentImgIndex += step;
+            
+            if (currentImgIndex >= currentCityData.images.length) currentImgIndex = 0;
+            if (currentImgIndex < 0) currentImgIndex = currentCityData.images.length - 1;
+            
+            showImage();
+        }
+
+        document.addEventListener('keydown', (e) => {
+            if (!panel.classList.contains('active')) return;
+            if (e.key === 'ArrowRight') changeImage(1);
+            if (e.key === 'ArrowLeft') changeImage(-1);
+            if (e.key === 'Escape') closeGallery();
+        });
+    </script>
+</body>
+</html>
