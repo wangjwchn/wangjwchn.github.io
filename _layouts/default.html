@@ -19,6 +19,12 @@
       <header>
         <h2>{{ site.title | default: site.github.repository_name }}</h2>
 
+        {% if site.logo %}
+          <img src="{{site.logo | relative_url}}" alt="Logo" />
+        {% endif %}
+
+        <p>{{ site.description | default: site.github.project_tagline }}</p>
+
         <p><p><p class="view"><a href="portfolio.html">View My Photography</a></p></p></p>
 
         <p><p><p class="view"><a href="https://www.linkedin.com/in/wangjwchn">View My Linkedin Profile</a></p></p></p>
