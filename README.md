@@ -9,7 +9,7 @@ Before joining TU Dresden, I worked as a research assistant at [Microsoft Resear
 
 ## Selected Publications
 
-[**OSDI'26**] [jwmalloc: A Verified Memory Allocator for Mobile Devices]() (Accepted, to appear)  
+[**OSDI'26**] [jwmalloc: A Verified Memory Allocator for Mobile Devices  
 *Jiawei Wang*, Ming Fu, Ruixian Wang, Chao Xu, Jonas Oberhauser, and Haibo Chen  
 
 [**ASPLOS'25**] [Enabling Efficient Mobile Tracing with BTrace](papers/ASPLOS2025.pdf) ([Slides](papers/ASPLOS2025-slides.pdf))  
