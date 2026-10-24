@@ -6,7 +6,7 @@ from PIL import Image
 from PIL.ExifTags import GPSTAGS
 import pillow_heif
 
-# 注册 HEIC 格式支持
+#将手机Photos中相片通过拷贝方式拷贝jpeg格式到photos文件夹，之后运行本脚本
 pillow_heif.register_heif_opener()
 
 PHOTOS_DIR = os.path.join(os.path.dirname(__file__), 'photos')
