@@ -11,7 +11,7 @@ Before joining TU Dresden, I worked as a research assistant at [Microsoft Resear
 
 [**OSDI'26**] [jwmalloc: A Verified Memory Allocator for Mobile Devices](papers/OSDI2026.pdf)  
 *Jiawei Wang*, Ming Fu, Ruixian Wang, Chao Xu, Jonas Oberhauser, and Haibo Chen  
-Best Paper Nominee
+**Best Paper Nominee**
 
 [**ASPLOS'25**] [Enabling Efficient Mobile Tracing with BTrace](papers/ASPLOS2025.pdf) ([Slides](papers/ASPLOS2025-slides.pdf))  
 *Jiawei Wang*, Nian Liu, Arnau Casadevall-Saiz, Yutao Liu, Diogo Behrens, Ming Fu, Ning Jia, Hermann Härtig, and Haibo Chen
@@ -27,7 +27,7 @@ Best Paper Nominee
 
 [**SETTA'17**] [Formalizing SPARCv8 Instruction Set Architecture in Coq](papers/SETTA2017.pdf) ([Slides](papers/SETTA2017-slides.pdf))  
 *Jiawei Wang*, Ming Fu, Lei Qiao, and Xinyu Feng  
-Best Paper Award Honorable Mention
+**Best Paper Award Honorable Mention**
 
 ## Recent Experiences
 
